@@ -1,0 +1,15 @@
+.a-link {
+    display: inline-block;
+    color: var(--primary-primary70);
+    font-weight: var(--weight-bold);
+    font-size: var(--size-label-large);
+    text-decoration: underline;
+    transition: opacity 0.3s ease;
+    padding: var(--spacing-8);
+}
+
+.a-link:hover,
+.a-link:active {
+    opacity: 0.7;
+    text-decoration: none;
+}

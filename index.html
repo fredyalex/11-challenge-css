@@ -1,26 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="./assets/styles.css">
-  <title>Frontend Mentor | Order summary card</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+        <link rel="stylesheet" href="./assets/styles.css">
+        <title>Frontend Mentor | Order summary card</title>
+    </head>
+    <body class="o-flex-center">
+        <main class="o-container o-flex-center">
+            <div class="og-order-card">
+                <article class="m-card">
+                    <div class="m-card__header"></div>
+                    <div class="m-card__title">
+                        <h2>Order Summary</h2>
+                    </div>
 
-  Order Summary
-
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-
-</body>
+                    <div class="m-card__body">
+                        <p class="u-text-center">
+                            You can now listen to millions of songs, audiobooks, and podcasts on any
+                            device anywhere you like!
+                        </p>
+                        <div class="m-plan-price">
+                            <div class="m-price-info">
+                                <div class="a-icon">
+                                    <img src="/assets/images/icon-music.svg" alt="music icon"/>
+                                </div>
+                                <div class="m-price-content">
+                                    <div class="u-title-small">Annual Plan</div>
+                                    <div >$59.99/year</div>
+                                </div>
+                            </div>
+                            <a class="a-link" href="#">Change</a>
+                        </div>
+                        <div class="a-btn a-btn-primary">Proceed to Payment</div>
+                        <div class="a-btn a-btn-secondary">Cancel Order</div>
+                    </div>
+                </article>
+            </div>
+        </main>
+    </body>
 </html>

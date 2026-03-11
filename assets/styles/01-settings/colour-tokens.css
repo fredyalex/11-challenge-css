@@ -1,0 +1,15 @@
+/* Colour Tokens */
+:root {
+    --color-bg-primary: var(--primary-primary70);
+    --color-bg-primary-container: var(--primary-primary100);
+    --color-bg-secundary: var(--neutral-neutral10);
+    --color-bg-secundary-container: var(--neutral-variant100);
+    --color-bg-surface-container: var(--neutral-variant100);
+    --color-bg-surface-container-lowest: var(--primary-primary100);
+    --color-bg-surface-container-high: var(--neutral-variant950);
+    --color-text-on-primary: var(--primary-primary100);
+    --color-text-on-primary-container: var(--neutral-variant60);
+    --color-text-on-secundary: var(--neutral-variant60);
+    --color-text-on-secundary-container: var(--neutral-neutral10);
+    --color-text-on-surface: var(--neutral-variant60);
+}

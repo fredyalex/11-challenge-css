@@ -1,0 +1,34 @@
+.m-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-24);
+    background-color: var(--color-bg-surface-container);
+    border-radius: var(--radius-medium);
+    overflow: hidden;
+}
+
+.m-card__header {
+    aspect-ratio: 2/1;
+    width: 100%;
+    min-height: 200px;
+    background-image: url('/assets/images/illustration-hero.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.m-card__title{
+    font-size: var(--size-display-small);
+    font-weight: var(--weight-black);
+    color: var(--color-bg-secundary);
+    text-align: center;
+}
+
+.m-card__body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-24);
+    padding: var(--spacing-16);
+    font-size: var(--size-body-medium);
+}

@@ -1,0 +1,16 @@
+/* Typography */
+:root {
+    /* font size */
+    --size-title-small: 14px;
+    --size-body-medium: 16px;
+    --size-label-large: 16px;
+    --size-display-small: 24px;
+
+    /* font family */
+    --family-body: 'Red Hat Display', sans-serif;
+
+    /* weight */
+    --weight-black: 900;
+    --weight-bold: 700;
+    --weight-medium: 500;
+}

@@ -1,0 +1,17 @@
+.m-plan-price {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-bg-surface-container-high);
+    padding: var(--spacing-16);
+    border-radius: var(--radius-small);
+}
+
+.m-price-info {
+    display: flex;
+    gap: var(--spacing-16);
+}
+
+.m-price-content{
+    display: flex;
+    flex-direction: column;
+}
