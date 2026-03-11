@@ -5,6 +5,7 @@
     text-align: center;
     border-radius: var(--radius-small);
     padding: var(--spacing-8);
+    border: none;
 }
 
 .a-btn-primary {
